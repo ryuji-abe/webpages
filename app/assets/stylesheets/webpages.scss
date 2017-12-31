@@ -1,0 +1,41 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #eee;
+  color: #333;
+}
+
+.contents1 ul, .contents2 ul{
+  padding:15px;
+}
+
+.contents1 li, .contents2 li{
+    list-style:none;
+    word-break: break-all;
+}
+
+.contents1 h1, .contents2 h1{
+  text-align: center;
+}
+
+.contents1{
+  background-color: #fff;
+  border: solid 1px #ccc;
+  margin-bottom: 15px;
+}
+
+.contents2{
+  background-color: #fff;
+  border: solid 1px #ccc;
+  margin-bottom: 15px;
+}
+
+footer{
+  text-align: center;
+  background-color: #222;
+  color:#fff;
+  padding: 15px 0px;
+}
